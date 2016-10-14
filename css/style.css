@@ -1,48 +1,101 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:600|Quattrocento+Sans';
+
 html {
+
   background: url(https://unsplash.it/1920/1080/?random) no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
   background-size: cover;
+
 }
+
+
 
 .material-card {
+
   background-color: white;
+
   left: 50%;
+
   top: 50%;
+
   position: absolute;
+
   transform: translate(-50%, -50%);
+
   box-shadow: 10px 10px 45px 0px rgba(0, 0, 0, 0.75);
+
 }
+
+
 
 .inner-card {
+
   padding: 20px;
+
 }
+
+
 
 .quote {
+
   font-family: 'Quattrocento Sans', sans-serif;
+
   font-style: italic;
+
   font-size: 28px;
+
 }
+
+
 
 .author {
+
   font-family: 'Open Sans Semibold', sans-serif;
+
 }
+
+
 
 .icons {
+
   font-size: 40px;
+
 }
+
+
 
 a:link {
-  text-decoration:none;
+
+  text-decoration: none;
+
 }
+
+
 
 a:visited {
-  text-decoration:none;
+
+  text-decoration: none;
+
 }
+
+
 
 .fa-refresh:hover {
+
   color: #87CEFA;
+
 }
 
+
+
 .fa-twitter:hover {
+
   color: #87CEFA;
+
 }
