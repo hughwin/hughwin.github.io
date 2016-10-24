@@ -1,101 +1,124 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:600|Quattrocento+Sans';
 
-html {
-
-  background: url(https://unsplash.it/1920/1080/?random) no-repeat center center fixed;
-
-  -webkit-background-size: cover;
-
-  -moz-background-size: cover;
-
-  -o-background-size: cover;
-
-  background-size: cover;
-
+.navbar-nav {
+    margin: 1;
+    padding: 7.5px 15px;
+    overflow:hidden;
 }
 
-
-
-.material-card {
-
-  background-color: white;
-
-  left: 50%;
-
-  top: 50%;
-
-  position: absolute;
-
-  transform: translate(-50%, -50%);
-
-  box-shadow: 10px 10px 45px 0px rgba(0, 0, 0, 0.75);
-
+#bootstrap_menu.navbar-default .navbar-brand {
+  color: rgba(119, 119, 119, 1);
 }
 
-
-
-.inner-card {
-
-  padding: 20px;
-
+#bootstrap_menu.navbar-default {
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom-width: 0;
 }
 
-
-
-.quote {
-
-  font-family: 'Quattrocento Sans', sans-serif;
-
-  font-style: italic;
-
-  font-size: 28px;
-
+#bootstrap_menu.navbar-default .navbar-nav>li>a {
+  color: rgba(119, 119, 119, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 
-
-
-.author {
-
-  font-family: 'Open Sans Semibold', sans-serif;
-
+#bootstrap_menu.navbar-default .navbar-nav>li>a:hover,
+#bootstrap_menu.navbar-default .navbar-nav>li>a:focus {
+  color: rgba(51, 51, 51, 1);
+  background-color: rgba(187, 197, 199, 1);
 }
 
-
-
-.icons {
-
-  font-size: 40px;
-
+#bootstrap_menu.navbar-default .navbar-nav>.active>a,
+#bootstrap_menu.navbar-default .navbar-nav>.active>a:hover,
+#bootstrap_menu.navbar-default .navbar-nav>.active>a:focus {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(36, 193, 224, 1);
 }
 
-
-
-a:link {
-
-  text-decoration: none;
-
+#bootstrap_menu.navbar-default .navbar-toggle {
+  border-color: #24c1e0;
 }
 
-
-
-a:visited {
-
-  text-decoration: none;
-
+#bootstrap_menu.navbar-default .navbar-toggle:hover,
+#bootstrap_menu.navbar-default .navbar-toggle:focus {
+  background-color: #24c1e0;
 }
 
-
-
-.fa-refresh:hover {
-
-  color: #87CEFA;
-
+#bootstrap_menu.navbar-default .navbar-toggle .icon-bar {
+  background-color: #24c1e0;
 }
 
+#bootstrap_menu.navbar-default .navbar-toggle:hover .icon-bar,
+#bootstrap_menu.navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #ffffff;
+}
 
+.top {
+  background: linear-gradient(135deg, #1DE9B6 0%, #2979FF 100%);
+  font-familt: 'Lato', sans-serif;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 250px;
+  padding-bottom: 200px;
+  overflow:hidden;
+  
+}
 
-.fa-twitter:hover {
+.header {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 70px;
+  overflow:hidden;
+}
 
-  color: #87CEFA;
+.title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 80px;
+  font-size: 8vw;
+  overflow:hidden;
+}
 
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  overflow:hidden;
+}
+
+html,
+body {
+  
+  height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  max-width: 100% !important;
+}
+
+.panel {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+  overflow: hidden;
+  transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+  overflow:hidden;
+}
+
+.fa {
+  font-size: 75px;
+  color: grey;
+}
+
+.social .fa-facebook-official:hover {
+  color: rgb(29, 230, 184);
+}
+
+.social .fa-github:hover {
+  color: rgb(33, 200, 204);
+}
+
+.social .fa-linkedin:hover {
+  color: rgb(37, 159, 230);
+}
+
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
