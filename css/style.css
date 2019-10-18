@@ -94,6 +94,7 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
   overflow: hidden;
   transition: box-shadow 0.5s;
+        height: 425px
 }
 
 .panel:hover {
@@ -121,4 +122,8 @@ body {
 .container {
     max-width: 100% !important;
     overflow-x: hidden !important;
+}
+
+.card {
+    height 500px : !important;
 }
