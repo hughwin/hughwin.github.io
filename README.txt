@@ -1,3 +1,5 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/hughwin/pen/gwrdmX.
+# Personal website. 
+
+Suimple static website made with JQuery and Bootstrap. 
 
  
